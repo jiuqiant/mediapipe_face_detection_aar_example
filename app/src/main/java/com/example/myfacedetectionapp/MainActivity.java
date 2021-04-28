@@ -34,7 +34,7 @@ import com.google.mediapipe.glutil.EglManager;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
-    private static final String BINARY_GRAPH_NAME = "mobile_gpu.binarypb";
+    private static final String BINARY_GRAPH_NAME = "face_detection_mobile_gpu.binarypb";
     private static final String INPUT_VIDEO_STREAM_NAME = "input_video";
     private static final String OUTPUT_VIDEO_STREAM_NAME = "output_video";
     private static final CameraHelper.CameraFacing CAMERA_FACING = CameraHelper.CameraFacing.FRONT;
